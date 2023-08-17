@@ -1,0 +1,31 @@
+.lista_index{
+
+    text-align: right;
+    font-size: x-large;
+
+}
+
+.footer_index{
+
+    position: bottom;
+
+
+}
+
+.color_index{
+
+    background-color: rgb(193, 226, 226);
+}
+
+.img_container{
+
+    min-height: 80vh;
+
+}
+
+.Titulo{
+
+    padding: 1em;
+
+}
+
