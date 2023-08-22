@@ -1,31 +1,63 @@
-.lista_index{
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+
+    margin: 0px;
+    background-color: #efefef;
+
+}
+
+header{
+    background-color: grey;
+    padding: 1rem 1rem;
+}
+
+ul a{
+
+    text-align: right;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+ul a:hover{
+    color:blue;
+}
+
+ul{
 
     text-align: right;
     font-size: x-large;
+    background-color: grey;
 
 }
 
-.footer_index{
+footer{
 
-    position: bottom;
-
-
-}
-
-.color_index{
-
-    background-color: rgb(193, 226, 226);
-}
-
-.img_container{
-
-    min-height: 80vh;
+    padding: 1rem 2rem;
+    margin: 0px;
+    background-color: grey;
+    text-align: right;
 
 }
 
-.Titulo{
-
-    padding: 1em;
-
+footer a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
 }
+
+footer a:hover{
+    color:blue;
+}
+
+
+
+
+
+
+
+
 
