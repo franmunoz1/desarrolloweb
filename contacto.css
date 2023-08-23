@@ -34,6 +34,24 @@ ul{
 
 }
 
+section{
+    padding: 1rem 2rem;
+    margin: 0px;
+    background-color: white;
+    text-align: center;
+}
+
+section input{
+
+    width: 50%;
+    padding: 0.5rem 0.5rem;
+    margin: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+    font-size: large;
+
+}
+
 footer{
 
     padding: 1rem 2rem;
