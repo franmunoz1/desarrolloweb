@@ -34,11 +34,12 @@ ul{
 
 }
 
-article{
+section article{
 
+    transition: box-shadow 0.3s ease;
     margin: 0 auto;
     background-color: white;
-    border-radius: 0,5px;
+    border-radius: 0.5rem;
     padding: 0.25rem 0;
     width: 400px;
 
@@ -58,3 +59,8 @@ footer{
 
 }
 
+article:hover{
+
+    box-shadow: 0 0 0.5rem grey; /*sombra al pasar el mouse*/
+
+}

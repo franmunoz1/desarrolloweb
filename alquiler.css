@@ -34,6 +34,37 @@ ul{
 
 }
 
+section{
+
+    margin: 0 auto;
+    width: 400px;
+
+}
+
+section article{
+
+    transition: all 0.3s ease; /*transicion de la sombra al pararse sobre los articulos*/
+    background-color: white;
+    margin: 1rem 0;
+    border-radius: 0.5rem; /*bordes redondeados*/
+    padding: 0.25rem 0; /*separar el texto*/
+    cursor: pointer; /*cambiar el cursor al pasar el mouse y pone manito*/
+
+}
+
+section article:hover{
+
+    box-shadow: 0 0 0.5rem grey; /*sombra al pasar el mouse*/
+
+}
+
+section article h2, article p{
+
+    margin: 1rem 0;
+
+
+}
+
 footer{
 
     padding: 1rem 2rem;
