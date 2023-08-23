@@ -67,9 +67,20 @@ section article h2, article p{
 
 footer{
 
+    transition: all 0.3s ease; /*transicion de la sombra al pararse sobre los articulos*/
     padding: 1rem 2rem;
     margin: 0px;
     background-color: grey;
     text-align: right;
 
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+footer a:hover{
+    color:blue;
 }
