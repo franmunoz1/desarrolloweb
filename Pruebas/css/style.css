@@ -1,3 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /*alto y ancho abarca todo, sumado bordes y padding*/
+    box-sizing: border-box;
+}
+
 h1{
     color: red;
     background-color: aqua;
@@ -52,3 +59,41 @@ p{
 
 }
 
+
+
+
+
+.rem{
+    font-size: 1rem;
+}
+
+.caja{
+    border: solid 1px;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.caja-2{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+.caja-3{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.flex-container{
+    background-color: yellow;
+    height: 98vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-flow: column wrap; */
+    justify-content: center;
+
+}
