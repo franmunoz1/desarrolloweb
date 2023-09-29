@@ -34,6 +34,8 @@ img, video{
 header{
     background-color:rgb(242, 205, 205);
     padding: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .navbar{
@@ -116,7 +118,33 @@ footer{
 
 /* Estilos de inicio */
 
+.index-catalogo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
 
+.index-catalogo a{
+    background-color: coral;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.index-clases{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.index-clases a{
+    background-color: coral;
+    border: 1px solid black;
+    border-radius: 5px;
+}
 
 /* Estilos de catalogo */
 
