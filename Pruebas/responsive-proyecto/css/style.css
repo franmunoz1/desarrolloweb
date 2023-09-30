@@ -130,6 +130,9 @@ footer{
     background-color: coral;
     border: 1px solid black;
     border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    align-self: center;
 }
 
 .index-clases{
@@ -144,15 +147,40 @@ footer{
     background-color: coral;
     border: 1px solid black;
     border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    align-self: center;
 }
 
 /* Estilos de catalogo */
 
 /* Estilos de clases */
 
+.contenedor-clases{
+    padding: 1rem;
+}
+
+.seccion-clases{
+    display: flex;
+    flex-direction: column;
+}
+
+.clase-normal, .clase-personalizada{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
 /* Estilos de contacto */
 
 /* Estilos de nosotros */
+.contenedor-nosotros{
+    padding: 1rem;
+}
+
+
 
 
 
