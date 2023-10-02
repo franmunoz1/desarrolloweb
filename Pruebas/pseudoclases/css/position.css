@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 2rem;
+}
+
+.menu-lista{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.lista-desplegable{
+    position: absolute;
+    list-style: none;
+    background-color: aqua;
+    border: 2px solid black;
+    width: 100px;
+
+    display: none;
+}
+
+.item-lista:hover .lista-desplegable{
+    display: block;
+}
