@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    background-color: aquamarine;
+    height: 100vh;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.caja {
+    font-size: 2.5rem;
+    line-height: 80px;
+    text-align: center;
+    background-color: tomato;
+    border: 5px solid black;
+    width: 250px;
+    height: 250px;
+
+    /* Gradientes */
+    /* background: linear-gradient(45deg, red, yellow); */
+    /* background: repeating-linear-gradient(75deg, black 0% 10%, white 5% 10%) */
+    /* background: radial-gradient(circle, red, yellow) */
+    /* background: radial-gradient(ellpipse 150px 200px, red 40%, yellow 40% 100$) */
+
+
+    /* Sombras */
+    /* text-shadow: 20px 20px 4px blue; */
+    /* box-shadow: 10px 10px 10px; */
+
+    /* Transformaciones */
+    /* transform: translate(40px, 150px); */
+
+    /* Rotar elementos */
+    /* transform: rotate(45deg); */
+    /* transform: rotateY(0deg); */
+
+    /* Escalado */
+    /* transform: scale(1, 0.5); */
+
+    /* Deformar al elemento */
+    /* transform: skewX(2deg) */
+
+    /* Transiciones */
+
+    /* transition-duration: 2s; */
+    /* transition-delay: 2s; */
+    /* transition-property: background-color; */
+    /* transition-timing-function: ease; */
+
+    /* transition: 2s 1s all ease; */
+
+    /* Animaciones de css */
+    animation-name: mover-caja;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+
+    animation-fill-mode: backwards;
+}
+
+@keyframes mover-caja {
+
+    0% {
+        transform: translate(0px);
+        background-color: brown;
+    }
+
+    25% {
+        transform: translate(600px);
+        background-color: green;
+    }
+
+    50% {
+        transform: translate(600px, 500px)scale(2);
+        background-color: yellow;
+    }
+
+    75% {
+        transform: translate(0px, 500px);
+        background-color: blueviolet;
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+        background-color: orange;
+    }
+}
+
+.caja:hover {
+
+    transform: rotate(360deg);
+    background-color: crimson;
+    box-shadow: 3px 3px 4px;
+
+}
+
+
+div img {
+    width: 80%;
+    height: 80%;
+
+    /* Filtro y sombra para las imagenes */
+    /* filter: drop-shadow(2px 3px 4px); */
+}
